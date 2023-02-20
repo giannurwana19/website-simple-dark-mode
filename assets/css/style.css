@@ -73,3 +73,20 @@ header .navbar .box-navbar .btn-switch i {
   color: rgba(0, 0, 0, 0.6);
   cursor: pointer;
 }
+
+@media (max-width: 992px) {
+  header .navbar .box-navbar .fa-bars {
+    display: block;
+  }
+
+  header .navbar .box-navbar .menu {
+    display: none;
+  }
+
+  header .navbar .box-navbar .btn-switch {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    margin-right: 10px;
+  }
+}
