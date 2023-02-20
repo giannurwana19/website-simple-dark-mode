@@ -11,3 +11,65 @@
   --input-color: #01162763;
   --custom-color: #6338ec;
 }
+
+body {
+  background-color: var(--primary-color);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+header .navbar {
+  padding-top: 15px;
+}
+
+header .navbar .box-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .navbar .box-navbar .logo h1 {
+  font-family: 'Roboto', sans-serif;
+  color: var(--secondary-color);
+}
+
+header .navbar .box-navbar .menu {
+  display: flex;
+  column-gap: 50px;
+  flex: 1;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+header .navbar .box-navbar .menu li {
+  list-style: none;
+}
+
+header .navbar .box-navbar .menu li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+header .navbar .box-navbar .menu li a:hover {
+  color: var(--custom-color);
+}
+
+header .navbar .box-navbar .fa-bars {
+  font-size: 24px;
+  color: var(--custom-color);
+  display: none;
+}
+
+header .navbar .box-navbar .btn-switch .dark-mode {
+  display: none;
+}
+
+header .navbar .box-navbar .btn-switch i {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
